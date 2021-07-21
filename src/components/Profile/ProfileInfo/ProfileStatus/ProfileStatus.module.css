@@ -1,0 +1,19 @@
+.status__wrapper {
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+}
+
+.profile__status {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.profile__status span {
+  font-weight: bold;
+}
+
+.status__input {
+  border: 3px solid black;
+  margin-bottom: 7px;
+  padding: 3px;
+}

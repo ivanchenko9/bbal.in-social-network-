@@ -1,0 +1,16 @@
+.errors input,
+.errors textarea {
+  display: block;
+  border: 3px solid red;
+}
+
+.errors span {
+  color: red;
+}
+
+.form__total__error {
+  border: 3px solid red;
+  padding: 5px;
+  font-size: 20px;
+  color: brown;
+}

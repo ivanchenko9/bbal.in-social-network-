@@ -1,0 +1,84 @@
+.profile__content {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.profile__photo img {
+  width: auto;
+  height: auto;
+  max-width: 450px;
+  border-radius: 5px;
+}
+
+.profile__info {
+  margin-left: 50px;
+}
+.profile__info span {
+  font-weight: bold;
+}
+
+.profile__name,
+.profile__sername,
+.profile__status,
+.profile__other,
+.profile__country,
+.profile__city {
+  margin-bottom: 7px;
+}
+
+.content__posts {
+}
+
+.posts__main__title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+
+  background-color: #ecac52;
+  border-radius: 5px;
+}
+
+.posts__item {
+  margin: 15px 0px;
+  border: 3px solid #3ec7d7;
+  border-radius: 5px;
+}
+
+.post__header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.post__profile__logo img {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #ecac52;
+  border-radius: 50%;
+}
+
+.post__profile__info {
+  padding-left: 15px;
+}
+
+.post__profile__name {
+  text-align: center;
+  height: 20px;
+}
+
+.post__profile__time {
+  width: 100%;
+  color: rgb(196, 192, 192);
+  font-size: 12px;
+  text-align: left;
+  height: 15px;
+}
+
+.post__content {
+  padding: 10px;
+  margin: 5px;
+  border: 3px solid #ecac52;
+  border-radius: 5px;
+}

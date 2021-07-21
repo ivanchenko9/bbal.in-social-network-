@@ -1,0 +1,51 @@
+.app__nav {
+  grid-area: app__nav;
+  background-color: #3ec7d7;
+  border-radius: 5px;
+}
+.nav__inner {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.nav__item {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.nav__item a.nav__active {
+  color: #ecac52;
+}
+
+.nav__link {
+  color: #fff;
+  vertical-align: top;
+  position: relative;
+}
+
+.nav__link::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #ecac52;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  margin-top: 3px;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+
+.nav__link:hover::after {
+  opacity: 1;
+}

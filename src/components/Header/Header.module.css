@@ -1,0 +1,38 @@
+.app__header {
+  grid-area: app__header;
+  background-color: #3ec7d7;
+
+  /* position: absolute; */
+  /* height: 100px; */
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+}
+
+.header__logo {
+  margin-left: 35px;
+}
+
+.header__title {
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  margin-right: 40px;
+}
+
+.login__block a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.login__block a:hover {
+  text-decoration: underline;
+}

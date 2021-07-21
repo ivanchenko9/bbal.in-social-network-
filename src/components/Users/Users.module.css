@@ -1,0 +1,101 @@
+.users__wrapper {
+  padding: 15px;
+}
+
+.users__main__title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+
+  background-color: #ecac52;
+  border-radius: 5px;
+
+  margin-bottom: 15px;
+}
+
+.users__inner {
+  padding: 10px 0px;
+}
+
+.user__item {
+  width: 100%;
+  display: flex;
+  border: 3px solid #3ec7d7;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.user__item:last-child {
+  margin-bottom: 0px;
+}
+
+.user__left__side {
+  margin-right: 15px;
+}
+
+.user__photo img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 85px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user__button {
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 4px;
+  background-color: #ecac52;
+  border-radius: 5px;
+}
+
+.user__button:hover {
+  color: #fff;
+  transition: color 0.1s linear;
+}
+
+.user__right__side {
+}
+
+.user__name,
+.user__sername,
+.user__location,
+.user__status {
+  font-size: 15px;
+  font-weight: normal;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.user__status {
+  margin-bottom: 0px;
+}
+
+.user__item span {
+  font-weight: 500;
+}
+
+.pages__of__users {
+  display: flex;
+}
+
+.pages__of__users span {
+  display: block;
+  margin-right: 3px;
+  padding: 3px;
+  border: 3px solid #ecac52;
+}
+
+.selected__page {
+  background-color: #3ec7d7;
+}
+.nonselected__page {
+  background-color: none;
+}

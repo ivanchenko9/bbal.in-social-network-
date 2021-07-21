@@ -1,0 +1,46 @@
+.message__content {
+  width: 50%;
+  padding-left: 15px;
+}
+
+.message__inner {
+}
+
+.message__adding {
+  margin: 15px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.message__text {
+  display: block;
+  width: 80%;
+  max-height: 55px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border: 3px solid #3ec7d7;
+  border-radius: 5px;
+}
+
+.message__text:focus {
+  border: 5px solid #3ec7d7;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+  transition: border 0.1s linear, box-shadow 0.1s linear;
+}
+
+.message__add__button {
+  max-height: 55px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ecac52;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.message__add__button:hover {
+  border: 3px solid #3ec7d7;
+  transition: border 0.1s linear;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}

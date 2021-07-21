@@ -1,0 +1,113 @@
+.dialogs__wrapper {
+  padding: 15px;
+}
+
+.dialogs__title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  background-color: #ecac52;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.dialogs__inner {
+  display: flex;
+}
+
+.convers__inner {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  border-right: 3px solid black;
+  padding-right: 10px;
+}
+
+.convers__item {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  margin: 10px 0px;
+  border-bottom: 3px solid rgb(196, 192, 192);
+}
+
+.convers__item:hover {
+  border-bottom: 3px solid black;
+  transition: border 0.2s linear;
+}
+.convers__item:hover {
+  border-bottom: 3px solid black;
+  transition: border 0.2s linear;
+}
+
+.covers__photo img {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.covers__info {
+  padding-left: 10px;
+}
+
+.covers__name {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  color: black;
+  line-height: 1.2;
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+.message__inner {
+  width: 50%;
+  display: flex;
+  padding-left: 15px;
+}
+
+.message__item {
+  width: 100%;
+  margin: 10px 0px;
+  border: 3px solid #a2e4ea;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.message__header {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.message__prof__photo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.message__title {
+  padding-left: 10px;
+}
+
+.message__prof__name {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.message__date {
+  width: 100%;
+  color: rgb(196, 192, 192);
+  font-size: 12px;
+  text-align: left;
+}
+
+.message__content {
+}
+
+.message__text {
+}

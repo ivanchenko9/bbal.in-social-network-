@@ -1,0 +1,48 @@
+.posts__main__title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+
+  background-color: #ecac52;
+  border-radius: 5px;
+}
+
+.posts__adding {
+  margin: 15px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.posts__text {
+  display: block;
+  width: 600px;
+  height: 150px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  /* border: 3px solid #3ec7d7; */
+  border-radius: 5px;
+}
+
+.posts__text:focus {
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+  transition: border 0.1s linear, box-shadow 0.1s linear;
+}
+
+.post__add__button {
+  max-height: 45px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ecac52;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 20px;
+}
+
+.post__add__button:hover {
+  border: 3px solid #3ec7d7;
+  transition: border 0.1s linear;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
